@@ -5,29 +5,35 @@ const Portfolio = function() {
 				text: "rapping",
 				weight: 12.3
 			}, {
-				text: "css3",
+				text: "comedy",
 				weight: 8
 			}, {
-				text: "javascript",
+				text: "kinesiology",
 				weight: 14
 			}, {
-				text: "jquery",
+				text: "bitcoin",
 				weight: 3
 			}, {
 				text: "programming",
 				weight: 7
 			}, {
-				text: "python",
+				text: "jiu-jitsu",
 				weight: 10
 			}, {
-				text: "java",
+				text: "toastmasters",
 				weight: 9
 			}, {
-				text: "qazi",
+				text: "vlogging",
 				weight: 15
 			}, {
-				text: "newText",
+				text: "blogging",
 				weight: 7
+			}, {
+				text: "psychology",
+				weight: 7.5
+			}, {
+				text: "public health",
+				weight: 6.5
 			}
 		];
 		return words;
@@ -57,7 +63,7 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"am a Full-Stack Web Developer.", "love everything about code.", "also teach programming to people.", "solve problems."
+				"am a Full-Stack Web Developer.", "late investor in Bitcoin ", "also have a Master's in Kinesiology", "solve problems."
 			],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
